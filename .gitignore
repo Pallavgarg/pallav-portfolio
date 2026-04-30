@@ -79,12 +79,14 @@ tmp/
 temp/
 .tmp-ref-*/
 
-
-
-
+# editor/project metadata
+.idea/
+.vscode/
 
 
 
 
 
 data/profile.ts
+data/profile.*.ts
+data/*profile*.private.*
