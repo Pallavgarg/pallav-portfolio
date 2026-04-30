@@ -1,5 +1,5 @@
 ﻿import { FormEvent, useEffect, useMemo, useState } from "react";
-import { profile } from "../data/profile";
+import { profile } from "../data/profile.public";
 
 type Step = "FORM" | "OTP" | "DONE";
 
@@ -253,3 +253,4 @@ export function Contact() {
     </section>
   );
 }
+

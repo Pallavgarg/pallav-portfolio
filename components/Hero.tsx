@@ -1,5 +1,5 @@
 ﻿import { useEffect, useState } from "react";
-import { profile } from "../data/profile";
+import { profile } from "../data/profile.public";
 
 export function Hero() {
   const stats = [
@@ -54,3 +54,4 @@ export function Hero() {
     </section>
   );
 }
+

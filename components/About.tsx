@@ -1,4 +1,4 @@
-﻿import { profile } from "../data/profile";
+﻿import { profile } from "../data/profile.public";
 
 export function About() {
   return (
@@ -17,3 +17,4 @@ export function About() {
     </section>
   );
 }
+

@@ -1,5 +1,5 @@
 ﻿import Head from "next/head";
-import { profile } from "../data/profile";
+import { profile } from "../data/profile.public";
 
 export function Seo() {
   return (
@@ -11,3 +11,4 @@ export function Seo() {
     </Head>
   );
 }
+

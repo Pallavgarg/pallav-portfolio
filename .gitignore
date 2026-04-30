@@ -90,3 +90,4 @@ temp/
 data/profile.ts
 data/profile.*.ts
 data/*profile*.private.*
+!data/profile.public.ts
