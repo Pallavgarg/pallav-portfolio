@@ -27,6 +27,15 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+.env.*
+!.env.example
+
+# local node files
+.local-node
+.npm-cache
+.tmp
+.devserver.out.log
+.devserver.err.log
 
 # vercel
 .vercel
@@ -34,3 +43,48 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# personal/sensitive files
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.odt
+*.pages
+
+# local editor/notes/temp
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# keys/certs/secrets
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.secret
+secrets.*
+credentials.*
+
+# local runtime/cache artifacts
+.cache/
+.parcel-cache/
+dist/
+tmp/
+temp/
+.tmp-ref-*/
+
+
+
+
+
+
+
+
+
+data/profile.ts
